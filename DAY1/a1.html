@@ -1,0 +1,34 @@
+<!-- Create a webpage that changes the background color based on user input using prompt.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Change Background Color</h1>
+    <button onclick="changeBg()">Click Here!</button>
+    <script type="text/javascript">
+        function changeBg(){
+            let color = prompt("Enter a color name:");
+            if(color){
+                document.body.style.backgroundColor = color;
+            }else{
+                window.alert("Invalid color!");
+            }
+        }
+    </script>
+</body>
+
+</html>
