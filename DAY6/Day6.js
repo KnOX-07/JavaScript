@@ -40,7 +40,7 @@
 // const users = [
 //     {
 //         name: 'Alice',
-//         age: 25,
+//         age: 24,
 //         posts: [
 //             { title: 'Post 1', likes: 50 },
 //             { title: 'Post 2', likes: 120 }
@@ -48,7 +48,7 @@
 //     },
 //     {
 //         name: 'Bob',
-//         age: 30,
+//         age: 27,
 //         posts: [
 //             { title: 'Post 1', likes: 90 },
 //             { title: 'Post 2', likes: 180 }
@@ -56,7 +56,7 @@
 //     },
 //     {
 //         name: 'Charlie',
-//         age: 35,
+//         age: 30,
 //         posts: [
 //             { title: 'Post 1', likes: 80 },
 //             { title: 'Post 2', likes: 95 }
