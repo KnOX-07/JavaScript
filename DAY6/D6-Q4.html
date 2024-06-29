@@ -1,0 +1,46 @@
+<!-- Q.4) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <div id="usernameError" class="error"></div>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <div id="emailError" class="error"></div>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <div id="passwordError" class="error"></div>
+        </div>
+        <div>
+            <label for="confirmPass">Confirm Password:</label>
+            <input type="password" id="confirmPass" name="confirmPass">
+            <div id="confirmPassError" class="error"></div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="validation.js"></script>
+</body>
+
+</html>
