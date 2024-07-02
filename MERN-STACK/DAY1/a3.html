@@ -1,0 +1,30 @@
+<!-- Use prompt to check the user's age and display an alert indicating if the user 
+is an adult or not. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function checkAge(){
+            var userAge = prompt("Enter your age:");
+            userAge = Number(userAge);
+
+            if(isNaN(userAge) || userAge < 0){
+                alert("Please enter a valid age!");
+            }else{
+                if(userAge >= 18){
+                    window.alert("User is an adult.");
+                }else{
+                    window.alert("User is not an adult.");
+                }
+            }
+        }
+        checkAge();
+    </script>
+</body>
+</html>
