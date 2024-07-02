@@ -1,0 +1,17 @@
+.user-profile {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.user-profile h2 {
+    margin: 0 0 10px 0;
+}
+
+.user-profile p {
+    margin: 5px 0;
+}

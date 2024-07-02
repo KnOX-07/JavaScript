@@ -1,0 +1,27 @@
+.todo-list {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.todo-list h2 {
+    margin: 0 0 10px 0;
+}
+
+.todo-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    margin: 5px 0;
+}
+
+.incomplete-todo {
+    color: #ff6347;
+    font-weight: bold;
+}
