@@ -1,0 +1,11 @@
+Develop a functional React component for a to-do list application. The to-do list should consist of an array of objects, with each object containing "title" and "complete" properties. Implement the following functionalities:
+
+1. Display the list of to-do items.2. Add new items to the list.3. Update existing items.
+4. Delete existing items.
+
+• Design a user-friendly interface.
+• Display an edit and delete button next to each item.
+• Use session storage to retain the list's values even after the page is refreshed.
+• Ensure the component is reusable and maintains good coding practices.
+• Add appropriate validations for adding and updating items.
+• Style the application to make it visually appealing.
